@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import '../App.css';
+import logo from '../logo.svg';
 
-class App extends Component {
+class home extends Component {
   render() {
     return (
       <div className="App">
@@ -14,7 +14,7 @@ class App extends Component {
           </p>
           <a
             className="App-link"
-            href="https://reactjs.org"
+            href="/login"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -26,4 +26,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default home;
